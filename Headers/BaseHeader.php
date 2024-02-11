@@ -156,7 +156,7 @@ abstract class BaseHeader
             if ("\r\n" !== $token) {
                 $currentLine .= $token;
             }
-        }
+        } 
         
         return implode("\r\n", $headerLines);
     }
